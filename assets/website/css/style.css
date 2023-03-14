@@ -1,0 +1,2019 @@
+.html123 {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Conv_as-marquee';
+    src: url('as-marquee.eot');
+    src: local('â˜º'), url('as-marquee.woff') format('woff'), url('as-marquee.ttf') format('truetype'), url('as-marquee.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.vs_banner_head .vs_banner_head_span1, .vs_banner_head .vs_banner_head_span2, .vs_find_plumber input[type="text"] {
+    font-family: 'Conv_as-marquee' !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+button:focus{
+    outline: none;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+
+.vs_plumber_database_section button:hover, .vs_plumber_form button:hover, 
+.vs_contanct_form button:hover,.vs_button_menu a:hover,
+.vs_login_form_btn button:hover, .vs_plumber_create_from_button button:hover, 
+.vs_pricing_plans_section button:hover, .vs_payment_form_button button:hover{
+    background-color: white;
+    border-color: #ffd600;
+    color: black;
+    -webkit-transition: ease-in-out;
+}
+
+/*top bar css s*/
+
+.vs_tp_br{
+    background-color: #ffd600;
+    padding: 12px 0px;
+}
+
+.vs_tp_br ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.vs_tp_br ul li {
+    float: left;
+    list-style: none;
+    list-style-type: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    color: black;
+    line-height: 24px;
+    margin-right: 6px !important;
+    font-weight: 700;
+}
+
+.vs_tp_br ul li a.fb {
+    background-color: #072d82;
+}
+.vs_tp_br ul li a.twtr {
+    background-color: #00a9ff;
+}
+.vs_tp_br ul li a.isnta {
+    background-color: #ee2145;
+}
+.vs_tp_br ul li a {
+    width: 24px;
+    height: 24px;
+    color: #FFf !IMPORTANT;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+}
+
+.vs_tp_br p {
+    font-size: 16px;
+    color: red;
+    margin-bottom: 0px;
+    line-height: inherit;
+    font-weight: 700;
+    text-align: center;
+}
+
+.vs_lanug_btn button{
+    background: white;
+    border-radius: 20px;
+    padding: 2px 15px;
+    font-size: 13px;
+}
+.vs_lanug_btn a{
+    color: black;
+}
+.vs_lanug_btn a:hover{
+    text-decoration: none;
+}
+.vs_lanug_btn img{
+    padding-right: 10px;
+    width: 34px;
+}
+
+
+/*top bar css E*/
+
+
+/*Menu css S*/
+
+*{
+    box-sizing: border-box;
+}
+    
+/*==============navbar menu S========================*/
+  
+nav.vs_responsive_navbar {
+    background: #fff;
+    position: relative;
+    width: 100% !important;
+    top: 0%;
+    transition: 3s linear;
+    z-index: 999;
+    left: 0px;
+    transition: 0.4s all;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vs_responsive_navbar:before,
+.vs_responsive_navbar:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.vs_responsive_navbar:after {
+    clear: both;
+}
+
+.vs_logo {
+    width: 17%;
+    float: left;
+}
+.vs_menu_item li a.active{
+    color: #19a2e6;
+}
+.vs_menu_dropdown_list li.active{
+    background:#19a2e6; 
+}
+ul.vs_menu_item li ul.vs_menu_dropdown_list li.active a {
+    color: #fff !important;
+}
+
+
+nav.vs_responsive_navbar img {
+    padding: 10px 0;
+}
+
+.vs_menu_logo {
+    display: none;
+}
+
+.vs_inner_width {
+    display: flex;
+    width: 78%;
+}
+ 
+
+.vs_menu_list2 {
+    line-height: 40px;
+    /* display: inline-block; */
+    /*width: 830px ;*/
+    width: 935px ;
+}
+
+ul.vs_menu_item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.vs_menu_list2 li:nth-child(1){
+    margin-left: 0px !important;
+}
+
+
+.vs_menu_list2 li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+.vs_menu_item li:nth-child(7) {
+    padding-right: 0px !important;
+    padding-top: 0px;
+}
+
+.vs_menu_list2 a {
+            transition: 0.4s ease-in;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-weight: 600;
+    font-family: 'Muli' , sans-serif;
+}
+
+/*.vs_menu_list2 a:hover {
+   color: #1aa3e8 !important;
+}*/
+
+.vs_menu_list2 a:hover{
+    color: #2e2e2e;
+}
+
+.vs_menu_list2.active{
+  right: 0px;
+}
+
+button.vs_menu-toggle2 {
+    outline: none;
+    width: 25px;
+    border: none;
+    background: no-repeat;
+    position: relative;
+    z-index: 999;
+    display: none;
+}
+
+button.vs_menu-toggle2 span {
+    display: none;
+    background: #fff;
+    position: relative;
+    height: 4px;
+    margin: 5px 0px;
+}
+
+button.vs_menu-toggle2 {
+    display: block;
+    position: fixed;
+    /*right: 0;
+    top: 29px;*/
+    /*right: 70px;*/
+    right: 25px;
+    transform: translate(-50%, -50%);
+}
+
+.vs_menu_item li:nth-child(7) {
+    padding-right: 0px !important;
+    padding-top: 0px;
+}
+
+.vs_menu-toggle2.active span:nth-child(1) {
+    transform: rotate(-45deg);
+}
+
+.vs_menu-toggle2.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.vs_menu-toggle2.active span:nth-child(3) {
+    transform: rotate(45deg);
+    bottom: 14px;
+}
+
+nav.vs_responsive_navbar.sticky {
+        background: #fff!important;
+    height: 77px !important;
+    position: fixed;
+    top: 0px;
+}
+
+button.vs_menu-toggle2.active span {
+    background: #2e2e2e !important;
+}
+
+img.vs_sticky_logo {
+    display: none;
+}
+
+.sticky button.vs_menu-toggle2 span {
+    width: 25px;
+    height: 2px;
+    margin: 5px 0px;
+    transition: 0.1s all !important;
+    background: #3F3B51;
+}
+
+button.vs_menu-toggle2.active span {
+    background: #2e2e2e !important;
+}
+
+button.vs_menu-toggle2.active {
+     top: 32px;
+     right: 30px;
+}
+
+.sticky .vs_menu-toggle2.active span:nth-child(3){
+    bottom: 14px;
+}
+
+img.vs_sticky_logo {
+    display: none;
+}
+
+.sticky img.vs_sticky_logo {
+    display: block;
+    position: relative;
+}
+
+.sticky img.vs_full_logo {
+    display: none;
+}
+
+.sticky a img {
+    position: relative;
+}
+
+
+.vs_button_menu{
+   display: flex;
+}
+
+.vs_button_menu a{
+        line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd600;
+    border-radius: 30px;
+    /* margin: 20px 1% 0px; */
+    height: 50px;
+    /* font-size: 11px; */
+    font-size: 13px;
+    padding: 0px 12px;
+    margin-left: 6px;
+    border: 1px solid #ffd600;
+}
+
+
+/*========================Menu css E==============*/
+
+/*================ Heading css S ================ */
+
+.vs_heading_title h3 {
+    font-size: 20px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.vs_heading_title h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.vs_heading_title p {
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+
+/*================ Heading css E ================ */
+
+
+/*================home_banner section s================*/
+.vs_home_banner{
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/d6v56ds.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
+.vs_banner_head_main {
+  
+    display: flex;
+    justify-content: center;
+}
+
+.vs_banner_head {
+    position: relative;
+    top: 10px;
+}
+.vs_banner_head .vs_banner_head_span1{
+    background-color: rgb(255, 214, 0);
+    white-space: nowrap;
+    font-size: 140px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0px;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    opacity: 1;
+    padding: 7px 40px;
+}
+
+.vs_banner_head .vs_banner_head_span2{
+    font-size: 140px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    border-width: 0px;
+    padding-left: 20px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+}
+
+.vs_find_plmbr_cnt p {
+    font-size: 46px;
+    line-height: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    transition: none 0s ease 0s;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+    padding-bottom: 10px;
+}
+.vs_find_plumber{
+    display: flex;
+    justify-content: center;
+        margin-top: 34px;
+}
+
+.vs_find_plumber input[type="text"] {
+    width: calc(100% - 290px);
+    float: left;
+    height: 100px;
+    padding: 3px 0px 0px 29px !important;
+    margin: 0px !important;
+    font-size: 50px !important;
+    color: #001;
+    background-color: white;
+    border: 3px solid #ffd600 !important;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-weight: 700 !important;
+}
+
+.vs_find_plumber button {
+    float: left;
+    width: 270px;
+    margin-left: -45px !important;
+    text-align: center !important;
+    height:100px;
+    padding: 0px !important;
+    margin: 0px;
+    position: relative;
+    z-index:0;
+    background-color: #ffd600 !important;
+    border-radius: 60px;
+    color: #000;
+    font-size: 18px !important;
+    font-weight: 600;
+    border: none;
+}
+
+.vs_find_plumber button h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.vs_find_plumber button p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.vs_find_plmbr_cnt {
+    width: max-content;
+    position: absolute;
+    left: 50%;
+    top: 170px;
+    transform: translate(-50%, 35%);
+    color: white;
+}
+
+/*================Srvc_sec_1 css S================*/
+
+
+.vs_srvc_sec_1_cnt h2 {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+    font-weight: 400;
+    /* font-family: Aerial; */
+}
+
+.vs_srvc_sec_1_cnt h3 ,.vs_srvc_sec_1_cnt a{
+    font-size: 16px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+    /* font-family: Aerial; */
+}
+.vs_gap_10{
+    column-gap: 10px;
+}
+
+/*================Srvc_sec_1 css E================*/
+
+/*================About section css  S================*/
+.vs_sctn_space{
+    padding: 70px 0px 40px;
+}
+
+.vs_h3_head {
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: 700;
+    /* font-family: Aerial; */
+    margin-bottom: 30px;
+}
+
+.vs_abt_cnt p {
+    color: #808080;
+    font-size: 16px;
+    /*font-family: 'Poppins', sans-serif;*/
+    line-height: 1.7;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+/*================About section css  E================*/
+
+
+/*================Service section css S================*/
+
+.vs_srvces_bg{
+    padding: 70px 0px 90px;
+    background-image: url(../img/23sa156c1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.vs_img_ovrly_txt {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    padding: 25px;
+    left: 0;
+    right: 0;  
+    top: 15%;
+}
+
+.vs_img_ovrly_txt h2 {
+    margin-top: 0px;
+    color: #FFF;
+    /*font-size: 30px;*/
+    font-size:35px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.vs_img_ovrly_txt p {
+    color: #FFF;
+    font-size: 16px;
+    padding: 0px 15px;
+    line-height: 1.4;
+}
+
+/*================Service section css E================*/
+
+/*================Newsletter section css S================*/
+.vs_nwsletr_bg{
+    padding: 80px 0px;
+    background-image: url(../img/23sa1c56.png);
+    background-size: cover;
+}
+
+.vs_nwsletr_cnt h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: #FFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.vs_nwsletr_cnt h2{
+    font-size: 75px;
+    color: #FFF;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.vs_nwsletr_cnt p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+.vs_new_ltr_btn{
+    width: 160px;
+    line-height: 50px;
+    height: 50px;
+    padding: 0px;
+    border-radius: 30px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #ffd600;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd600;
+    outline: none;
+    transition: 0.4s all;
+}
+.vs_new_ltr_btn:hover ,.vs_find_plumber button:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+
+}
+
+.vs_new_ltr_btn a{
+    color: #000;
+    font-weight: 600;
+}
+
+
+/*================Newsletter section css E================*/
+
+/*================Testimonial section css S================*/
+
+.vs_testimonial_bg{
+    padding: 70px 0px 40px;
+    background-image: url(../img/5as1c56.png);
+    background-position: right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.vs_testimonial_bg:before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background-image: url(../img/54sac85sa.png);
+    width: 260px;
+    height: 244px;
+    background-size: cover;
+}
+
+.vs_testimonial_sldr .item {
+    background-color: #e5e4e1;
+    padding: 30px 20px 30px 32px;
+    cursor: pointer;
+    border: 2px solid #ffd600;
+    height: 270px;
+    border-radius: 10px;
+    transition: 0.4s all;
+}
+
+.vs_testimonial_sldr .item:hover{
+    background-color: #ffd600;
+}
+
+.vs_testi_div img {
+    width: 135px;
+    object-fit: cover;
+}
+.vs_testi_div {
+    display: grid;
+    grid-template-columns: 28% 68%;
+    gap: 4%;
+}
+
+
+.vs_testi_cnt p {
+    color: #808080;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.vs_testimonial_bg .vs_heading_title p {
+    width: 785px;
+    display: table;
+    margin: auto;
+}
+
+.vs_testi_cnt h3 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+
+.vs_icon-testi img {
+    width: 25px;
+    margin-right: 5px;
+    object-fit: contain;
+}
+
+.owl-nav.disabled {
+    display: none;
+}
+
+/*================Testimonial section css E================*/
+
+
+
+
+/*================ all_banner section S================*/
+
+
+
+
+.vs_all_banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url(../img/d6v56ds.jpg);
+    width: 100%;
+    z-index: 20;
+    background-color: #cccccc;
+    height: 355px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.vs_all_banner_head{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.vs_all_banner_head h1{
+        font-size: 55px;
+    letter-spacing: 3.1px;
+    font-weight: 600;
+}
+
+@media(max-width: 768px){
+    .vs_all_banner{
+        height: 255px;
+        }
+    .vs_all_banner_head h1{
+        font-size: 35px;
+    }
+
+}
+
+
+    /*================all_banner section E================*/
+
+
+
+    /*================ Contact Page S ================*/
+
+
+.vs_contact_call{
+    background-color: #ffd600 !important;
+}
+
+.vs_contact_call i{
+    font-size: 45px;
+}
+.vs_contact_call p{
+    color: #4e4e4e;
+    font-weight: 500;
+}
+.vs_contact_call a{
+    color: #4e4e4e;
+}
+
+.vs_contanct_form form{
+    width: 80%;
+    margin: auto;
+}
+
+.vs_contanct_form input{
+    width: 100%;
+    height: 45px;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+.vs_contanct_form .form-control{
+    border: 1px solid #9f9595;
+
+}
+
+.vs_contanct_form button, .vs_login_form_btn button,
+ .vs_plumber_create_from_button button, .vs_pricing_plans_section button, 
+ .vs_payment_form_button button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 42px;
+    padding: 0px 55px;
+    background-color: #ffd600;
+    position: relative;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 500ms;
+}
+                         
+    /*================ Contact Page S================*/
+
+
+    /*================ testimonial_page section S================*/
+
+.vs_testimonial_form .vs_test_head{
+    text-align: center;
+}
+.vs_testimonial_form .vs_test_head img{
+    width: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+.vs_testimonial_page .vs_test_section{
+    border: 1px solid gray;
+    padding: 4em 2em;
+    border-radius: 15px;
+}
+.vs_testimonial_page .vs_test_section .vs_test_quote_left img,
+ .vs_testimonial_page .vs_test_section .vs_test_quote_right img{
+    width: 60px;
+    filter: invert(68%) sepia(82%) saturate(898%) hue-rotate(0deg) brightness(100%) contrast(97%);
+}
+
+.vs_testimonial_page .vs_test_section .vs_test_quote_right{
+    text-align: right;
+}
+
+.vs_testimonial_page .vs_test_section .vs_test_quote_left{
+    bottom: 0;
+    position: absolute;
+    text-align: left;
+}
+.vs_testimonial_page .vs_test_section p{
+    color: gray;
+    font-size: 14px;
+}
+
+.vs_testimonial_form .modal-content{
+    border: 2px solid #ffd600;
+    border-radius: 0;
+}
+
+.vs_testimonial_page .vs_icon-testi img:nth-child(4),
+ .vs_testimonial_page .vs_icon-testi img:nth-child(5){
+    filter: grayscale(1);
+}
+.vs_testimonial_form .vs_icon-testi img{
+    width: 30px;
+    /*filter: invert(68%) sepia(82%) saturate(898%) hue-rotate(0deg) brightness(100%) contrast(97%);*/
+}
+
+button.close{
+    font-size: 3.5rem;
+    font-weight: 300;
+    width: 55px;
+    height: 50px;
+    position: relative;
+    right: 15px;
+    top: 15px;
+}
+
+
+    /*================Testimonial Page E================*/
+
+
+    /*================plumber_page Page S================*/
+
+
+
+
+.vs_plumber_form{
+    border: 1px solid black;
+    padding: 2em 2em;
+    border-radius: 15px;
+}
+.vs_plumber_form button{
+    line-height: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd600;
+    border-radius: 30px;
+    margin: 0;
+    font-size: 16px;
+    padding: 5px;
+    /*margin-left: 10px;*/
+    height: 45px;
+    font-weight: 600;
+}
+.vs_plumber_database_section{
+    width: 70%;
+    margin-right: auto;
+    border: 1px solid gray;
+    /*padding: 1.5em 1.5em;*/
+    padding:4px;
+    border-radius: 15px;
+    margin-bottom:10px !important;
+}
+.vs_plumber_database_section a{
+    color: black;
+    font-size: 12px;
+}
+
+.vs_plumber_database_section h3 a {
+    font-size: 24px;
+}
+
+.vs_plumber_database_section b a:hover{
+    color: #ffd600;
+}
+.vs_plumber_database_section p{
+    color: gray;
+    font-size: 14px;
+}
+.vs_plumber_database_section hr{
+    margin-top: 0.1rem;
+    margin-bottom: 1.1rem;
+    border: 0;
+    border-top: 1px solid rgb(0 0 0 / 42%);
+}
+
+/*** hangout button ***/
+.vs_plumber_database_section button, .vs_plumber_profile_banner_button button, .calling-controllers button#button-hangup{
+    /*line-height: 1em;*/
+    /*font-family: 'Poppins', sans-serif;*/
+    /*background-color: #ffd600;*/
+    /*border-radius: 30px;*/
+    /*font-size: 13px;*/
+    /*padding: 10px 0px;*/
+    /*    width: 240px;*/
+    /*margin: 10px;*/
+        /*width: 30%;*/
+    /*font-weight: 600;*/
+        line-height: 1em;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd600;
+    border-radius: 30px;
+    font-size: 13px;
+    line-height: 20px!important;
+    margin: 3px;
+    font-weight: 600;
+}
+.calling-controllers button#button-hangup{
+    border: none !important;
+    width: 130px !important;
+}
+.calling-controllers {
+    position: absolute;
+    right: 15%;
+    top: -20px;
+}
+/*** end ***/
+.vs_plumber_database_left{
+    border: 1px solid gray;
+    border-radius: 15px;
+    /*padding: 10px;*/
+    text-align: center;
+}
+.vs_plumber_database_left img {
+    width: auto;
+    height: 130px;
+}
+.vs_plumber_database_section .vs_icon-testi img:nth-child(5),
+ .vs_plumber_database_section .vs_icon-testi img:nth-child(6){
+    filter: grayscale(1);
+}
+.vs_plumber_banner_bottum{
+    text-align: center;
+    padding-top: 20px;
+}
+.vs_plumber_banner_bottum a{
+    padding: 18px 10px;
+    background: red;
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    border-radius: 100px;
+}
+.vs_plumber_banner{
+    height: 600px;
+}
+.vs_plumber_database_page .page-link{
+    border-color: grey;
+    color: black;
+}
+
+
+    /*================ plumber Page E================*/
+    /*================ plumber  create Page S================*/
+
+    .vs_plumber_create_from .form-check{
+        display: flex;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.vs_plumber_create_from .form-check-input{
+           width: 28px;
+    height: 28px;
+    margin: 0;
+}                        
+.vs_plumber_create_from .form-check-label{
+        margin-left: 45px;
+}
+.vs_plumber_create_from_w{
+        width: 80%;
+    margin: auto;
+}
+/*================ plumber create Page E================*/
+
+
+/*================ plumber Profile Page S================*/
+.vs_plumber_profile_banner_img2{
+        margin-top: -132px;
+    margin-left: 55px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: white;
+}
+.vs_plumber_profile_banner_img1{
+    border: 1px solid #808080;
+    border-radius: 15px;
+}
+.vs_plumber_profile_banner{
+    position: relative;
+}
+.vs_plumber_profile_banner_button{
+    position: absolute;
+    right: 7%;
+    top: 86%;
+}
+.vs_plumber_profile_banner_button button a{
+    color: black;
+}
+
+.vs_plumber_profile_table_head .vs_icon-testi img{
+    width: 33px;
+}
+.vs_plumber_profile_table_head .vs_icon-testi img:nth-child(4), 
+.vs_plumber_profile_table_head .vs_icon-testi img:nth-child(5){
+    filter: grayscale(1);
+}
+.vs_plumber_profile_table_b p{
+        color: #808080;
+    font-size: 14px;
+}
+.vs_plumber_profile_table_b hr{
+    border-color: grey;
+}
+
+/*================ plumber Profile Page E================*/
+
+    /*================log in Page S================*/ 
+
+.vs_login_form,  .vs_plumber_create_from, .vs_plumber_profile_table_b{
+    border: 1px solid gray;
+    padding: 4em 2em;
+    border-radius: 15px;
+    margin: 60px 0;
+}
+.vs_login_form form{
+    /*width: 50%;*/
+    margin: auto;
+}
+.vs_login_form form .input-group{
+    box-shadow: 2px 4px 3px rgb(145 161 169 / 25%);
+    background: white;
+    border-radius: 7px;
+    height: 60px;
+    border: 1px solid #c1bdbd;
+    align-items: center;
+    padding: 0 10px;
+    margin: 30px 0;
+}
+.vs_login_form form .form-control{
+    border: none;
+    font-size: 16px;
+     
+}
+.vs_login_form form .input-group-text{
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+.vs_login_form form input[type=checkbox]{
+    width: 35px;
+    height: 35px;
+}
+.vs_login_form form span{
+    margin-left: 25px;
+}
+
+.vs_login_form_btn button {
+    width: 100%;
+    border-radius: 7px;
+    height: 60px;
+}
+.vs_login_form form .form-check{
+    display: flex;
+    align-items: center;
+    height: 53px;
+    margin-left: 25px;
+    margin-bottom: 23px;
+}
+
+    /*================log in Page S================*/ 
+
+    /*<!-- ===============vs_payment section S================= -->*/
+.vs_payment_form{
+    width: 50%;
+    margin: auto;
+}
+.vs_payment_form form .form-control{
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.vs_payment_form form .form-group {
+    margin-bottom: 0.6rem;
+}
+.vs_payment_form_button button{
+    height: 60px;
+    font-size: 20px;
+}
+.vs_payment_success{
+    text-align: center;
+}
+.vs_payment_success_head{
+    width: 70%;
+    margin: auto;
+}
+.vs_payment_success button{
+    width: 65%;
+}
+
+   /* <!-- ===============vs_payment section E================= -->*/
+
+    /*<!-- ===============vs_pricing_plans S================= -->*/
+
+.vs_pricing_plans_head p{
+    width: 60%;
+    margin: auto;
+    padding: 1.6rem 0 2rem 0;
+}
+.vs_pricing_plans_section{
+    border: 1px solid #808080;
+    border-radius: 15px;
+    padding: 3rem 1rem;
+    background: #ffd600;
+        text-align: center;
+}
+section.vs_pricing_plans.py-5 .row.py-2 {
+    text-align: center;
+    justify-content: center;
+}
+.vs_pricing_plans_section h1{
+    font-weight: 500;
+}
+.vs_pricing_plans_section h1 span{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.vs_pricing_plans_section h1 sup {
+    top: -1.5em;
+}
+.vs_pricing_plans_section img{
+    width: 25px;
+}
+.vs_pricing_plans_section p{
+    color: #303030;
+    font-weight: 500;
+    padding-left: 9px;
+}
+
+    /*<!-- ===============vs_pricing_plans S================= -->*/
+/*================Footer css S================*/
+
+
+.vs_ftr_top {
+    background-color: #1a1a1a;
+    padding: 60px 0px 60px;
+}
+
+.vs_ftr_top p {
+    font-weight: 4ghhfgh00;
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.vs_ftr_top h2 {
+    color: #ffd600;
+    font-weight: 700;
+    font-size: 20px;
+    /* font-family: Aerial; */
+    margin-top: 40px;
+}
+
+.vs_ftr_top ul {
+    padding-left: 0px;
+}
+
+.vs_ftr_top ul li {
+    font-weight: 300;
+    color: #FFF;
+    font-size: 14px;
+    list-style: none;
+    list-style-type: none;
+    line-height: 2;
+}
+
+.vs_ftr_top ul li a {
+    color: #FFF;
+}
+
+.vs_ftr_top ul.vs_cntct li .fa {
+    font-size: 15px;
+    color: #ffd600;
+    width: 30px;
+    text-align: center;
+}
+
+.vs_ftr_top ul.vs_socl li {
+    float: left;
+}
+
+.vs_ftr_top ul.vs_socl li {
+    float: left;
+    list-style: none;
+    list-style-type: none;
+    font-size: 13px;
+    color: #ffffff;
+    margin-right: 10px;
+    line-height: 24px;
+}
+
+.vs_ftr_top ul.vs_socl li:last-child {
+    margin-right: 0px;
+}
+
+.vs_ftr_top ul.vs_socl li a {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    color: #FFf;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+}
+
+.vs_ftr_top ul.vs_socl li a.vs_fb {
+    background-color: #072d82;
+}
+
+.vs_ftr_top ul.vs_socl li a.vs_twtr {
+    background-color: #00a9ff;
+}
+
+.vs_ftr_top ul.vs_socl li a.vs_isnta {
+    background-color: #ee2145;
+}
+
+.vs_ftr_top ul.vs_socl li a.vs_gpls {
+    background-color: #ffd600;
+}
+
+
+
+.vs_ftr_top .vs_newsltr .vs_tnp-email {
+    width: 100%;
+    padding-left: 28px;
+    height: 40px;
+    border: 1px solid #FFF;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #FFf;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+button, input {
+    overflow: visible;
+}
+
+.vs_ftr_top .vs_newsltr .vs_tnp-email::placeholder {
+    opacity: 1;
+}
+
+.vs_ftr_top .vs_newsltr .vs_tnp-submit {
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: #ffd600;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.4s all;
+}
+
+.vs_ftr_top .vs_newsltr .vs_tnp-submit:hover{
+	background-color: #fff;
+}
+
+.vs_ftr_top h2.vs_hdng2 {
+    margin-top: 30px;
+}
+
+.vs_ftr_btm {
+    background-color: #ffd600;
+    padding: 15px 0px;
+}
+
+.vs_ftr_btm .vs_cpyrit p 
+    font-size: 14px;
+    color: #000;
+}
+.vs_ftr_top ul li a:hover {
+    color: #ffd600;
+}
+.vs_ftr_top ul li a:hover ,.vs_menu_list2 a:hover {
+    color: #ffd600;
+}
+/*================Footer css E================*/
+
+
+
+/*Responsive css S*/
+
+@media screen and (max-width:1326px) {
+    .vs_menu_list2 {
+        width: 887px;
+    }
+}
+  /*===================responsive 1199=============================*/
+
+@media screen and (max-width: 1199px) {
+    .vs_menu_list2 {
+        width: 844px;
+    }
+    
+    .vs_menu_list2 li {
+    list-style: none;
+        margin-left: 30px;
+    }
+
+    .vs_call_us_width {
+        width: 7%;
+    }
+
+    .vs_search_bar .wec_site_btn .vs_buttons_div {
+        position: absolute;
+        top: 0px;
+        right: 196px;
+    }
+
+    .vs_contact_banner {
+        background-color: #fff;
+        box-shadow:none;
+        padding: 70px 0px;
+        transition: 0.4s ease-in;
+    }
+
+    .vs_service {
+        padding: 30px 7px; 
+    }
+
+    .vs_banner_head .vs_banner_head_span1, .vs_banner_head .vs_banner_head_span2{
+        font-size: 60px;
+       }
+       .vs_img_ovrly_txt{
+        top: 0;
+       }
+       .vs_plumber_form label{
+        margin-bottom: 0;
+        height: 48px;
+       } 
+       .vs_plumber_profile_banner_img2 {
+            margin-top: -108px;
+            margin-left: 55px;
+            width: 200px;
+               
+        }
+        .vs_plumber_profile_banner_button {
+            position: absolute;
+            right: 9%;
+            top: 86%;
+        }
+    }
+
+
+/*===================responsive 1050=============================*/
+
+@media screen and (min-width: 1050px){
+    .sticky img.vs_sticky_logo{
+        width: 50%;
+    }
+    .vs_plumber_profile_banner_button{
+        right: 16%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    .sticky img.vs_sticky_logo{
+        width: 80%;
+    }
+    .vs_tp_br {
+        display: none;
+    }
+
+    .vs_button_menu a{
+        display: grid;
+        margin-top: 13px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .vs_menu_list2 {
+        display: none;
+    }
+
+    .vs_button_menu{
+        display: grid;
+        justify-content: start;
+    }
+
+    nav.vs_responsive_navbar{
+        top: 0;
+        justify-content: start;
+        /*position: fixed;*/
+        position: sticky;
+    }
+    nav.vs_responsive_navbar.sticky {
+        position: fixed;
+    }
+    .vs_menu_list2 {
+        position: fixed;
+/*       position: absolute;
+*/       right: -100%;
+        background: #f2f4f5;
+        height: 100vh;
+        top: 0;
+        z-index: 9;
+        width: 34%;
+        display: block;
+        box-shadow: 0px 0px 55px 0px rgba(0,0,0,0.29);
+    }
+
+    button.vs_menu-toggle2 span {
+        display: block;
+        background: #2e2e2e;
+        position: relative;
+        height: 2px;
+        margin: 5px 0px;
+    }
+
+    .vs_menu_list2.active{
+        display: block;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+
+    .vs_menu_logo {
+        display: block;
+        padding: 0px 0px 0px 29px;
+        position: relative;
+        left: -18px;
+    }
+
+    ul.vs_menu_item {
+        justify-content: center;
+        display: block;
+        padding: 70px 0px 70px 40px;
+    }
+
+    ul.vs_menu_item li {
+        border-top: 1px solid #e1e1e1;
+        padding: 10px 0px;
+    }
+
+
+    .vs_menu_item li:nth-child(1) {
+        margin-left: 0px;
+    }
+
+    .vs_menu_item li:nth-child(7) {
+        padding-right: 33px !important;
+        padding-top: 20px;
+    }
+  
+    .vs_menu_item li {
+        margin-left: 0px;
+        padding: 10px 0px;
+    }
+
+
+    .vs_home_banner{
+        position: relative;
+        /*top: 130px;*/
+    }
+    .vs_find_plmbr_cnt p{
+        font-size: 15px;
+    }
+    .vs_plumber_profile_banner_img2{
+        margin-top: -110px;
+        margin-left: 70px;
+        width: 170px;
+    }
+    .vs_plumber_profile_banner_button {
+            position: absolute;
+            right: 4%;
+            top: 89%;
+        }
+
+}
+    
+    /*===================responsive 991=============================*/
+
+@media screen and (max-width: 991px) {
+    .vs_menu_list2 {
+        width: 34%;
+    }
+    .vs_testimonial_bg{
+        background: none;
+        padding-top: 300px;
+    }
+    .vs_testimonial_bg:before {
+        margin: auto;
+        right: 0;
+    }
+
+    .vs_testimonial_bg .vs_heading_title p {
+        width: 100%;
+    }
+    .vs_icon-testi {
+        margin-bottom: 10px;
+    }
+    .vs_img_ovrly_txt{
+        top:30%;
+    }
+
+    .vs_plumber_database_section{
+        width: 100%;
+    }
+    .vs_plumber_form label {
+        margin-bottom: 0;
+        height: 36px;
+    }
+     .vs_plumber_profile_banner_img2{
+        margin-top: -77px;
+        margin-left: 53px;
+        width: 140px;
+    }
+
+
+    .vs_plumber_profile_banner_button {
+        position: static;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    h1{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+
+    nav.vs_responsive_navbar {
+       height: 75px;
+    }
+    .vs_menu_list2 {
+        width:60%;
+    }
+    .vs_find_plumber input[type="text"]{
+        width: 50%;
+        border-radius: 100px;
+    }
+    .vs_banner_head .vs_banner_head_span1, .vs_banner_head .vs_banner_head_span2{
+        font-size: 35px;
+    }
+    .vs_find_plumber input[type="text"] {
+        float: left;
+        height: 49px;
+        font-size: 13px !important;
+    }
+
+    .vs_find_plumber button {
+       width: 180px;
+        /* margin-left: -45px !important; */
+        text-align: center !important;
+        height: 49px;
+        /* padding: 0px !important; */
+        margin: 0px;
+        /* position: absolute; */
+        /* z-index: 0; */
+        font-size: 18px !important;
+        padding: 0 16px;
+    }
+    .vs_find_plmbr_cnt p {
+        font-size: 16px;
+    }
+    .vs_home_banner{
+        height: 350px;
+    }
+    .vs_find_plumber button h5 {
+        font-size: 14px;
+    }
+    .vs_find_plumber button p {
+        font-size: 11px;
+    }
+    .vs_nwsletr_cnt h3 {
+        font-size: 22px;
+    }
+    .vs_nwsletr_cnt h2 {
+        font-size: 45px;
+    }
+    .vs_contanct_form h1{
+        font-size: 2em;
+    }
+    .vs_contanct_form form{
+        width: 100%;
+    }
+
+    .vs_testimonial_page .vs_test_section .vs_test_quote_right{
+        text-align: left;
+    }
+
+    .vs_testimonial_page .vs_test_section .vs_test_quote_left{
+        bottom: 0;
+        position: static;
+        text-align: right;
+    }
+
+    .vs_testimonial_form .vs_contanct_form{
+        padding: 0 25px;
+    }
+
+   .vs_plumber_banner .vs_find_plmbr_cnt{
+        bottom: 0;
+        top: 170%;
+    }
+    .vs_plumber_banner_bottum a{
+        font-size: 13px;
+        padding: 10px;
+    }
+   
+    .vs_plumber_database_page .pagination-lg .page-link {
+        font-size: 1rem;
+        line-height: 1;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .vs_login_form form{
+        width: 100%;
+    }
+    .vs_login_form form .input-group{
+        padding: 0;
+    }
+    .vs_plumber_create_from_w {
+        width: 100%;
+        margin: auto;
+    }
+    .vs_plumber_profile_banner_img2 {
+        margin-top: -58px;
+        margin-left: 38px;
+        width: 120px;
+    }
+
+    .vs_payment_form, .vs_payment_success_head{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+    /*===================responsive 575=============================*/
+
+@media screen and (max-width: 575px) {
+    .sticky img.vs_sticky_logo{
+        width: 100%;
+    }
+    .vs_testi_div{
+        display: block;
+    }
+    .vs_testimonial_sldr .item{
+        height: 510px;
+    }
+
+    nav.vs_responsive_navbar img {
+        max-width: 155px !important;  
+    }
+
+    .vs_header_section {
+        position: relative;
+        top: 120px;
+    }
+
+    .vs_menu_list2 {
+        width:100%;
+        box-shadow: none;
+    }
+    .vs_banner_head .vs_banner_head_span1, .vs_banner_head .vs_banner_head_span2{
+        font-size: 25px;
+    }
+    .vs_plumber_profile_banner_img2 {
+       margin-top: -60px;
+       margin-left: 34px;
+       width: 120px;
+    }
+    .vs_plumber_profile_banner_button button{
+        width: 100%;
+    }
+
+    .vs_payment_success button{
+        width: 80%;
+    }
+}
+
+/*===================================responsive 400==================================*/
+
+@media screen and (max-width: 400px) {
+   
+    nav.vs_responsive_navbar img {
+        position: relative;
+        left: 9px;
+    }
+    
+  
+}
+
+/*Responsive css E*/
+
+/** plumber details **/
+.profile-cover {
+    height: 370px;
+    background-color: #eee;
+    text-align: center;
+}
+.cover-area {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.cover-overlay {
+    margin-top: 40px;
+}
+.cover-overlay > h3, .cover-overlay > h3 > a {
+    color: #aaa;
+    font-size: 31px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.cover-overlay > h3 > a:hover {
+    text-decoration: underline;   
+}
+.profile-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-photo {
+    width: 190px;
+    height: 190px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-left: 30px;
+    position: relative;
+    margin-top: -95px;
+    overflow: hidden;
+    display: inline-block;
+}
+.profile-photo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-info > h5 {
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.profile-btns {
+    display: flex;
+}
+.profile-btns > a, .profile-btns > form > button {
+    display: inline-block;
+    background-color: #ffd600;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    padding: 9px 30px;
+    margin: auto 5px;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.content-row {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    min-height: 80px;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+.content-info {
+    min-width: 25%;
+    padding: 0 10px;
+}
+.content-info >label {
+    font-weight: 600;
+    color: #007acd;
+    display: block;
+}
+input.empty-field {
+    width: 90% !important;
+    display: block !important;
+    height: 35px;
+    line-height: 35px !important;
+    background-color: #efefef !important;
+    border: 1px solid #ccc !important;
+    border-radius: 0px !important;
+}
+.company-info {
+    margin-top: 10px;
+    padding: 20px;
+    background: #ffd600;
+    text-align: center;
+    color: #222;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+.company-info > h2 {
+    font-weight: 600;
+    color: #007acd;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.company-info > p {
+    font-size: 12px;
+    color: #222;
+}
+.profile-verification {
+    padding: 60px;
+}
+.msg-box {
+    max-width: 450px;
+    margin: 15px auto;
+}
+.verify-btn > h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #858585;
+}
+.profile-verification .btn.btn-yellow {
+    float: none;
+    border-radius: 0;
+    padding: 0 50px;
+    margin: auto;
+    display: block;
+}
+.btn-yellow {
+    padding: 0px 15px;
+    height: 50px;
+    line-height: 50px;
+    color: #000 !important;
+    background-color: #ffd600;
+    float: left;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0;
+    font-size: 14px;
+}
+.verify-btn > .form-group {
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.profile-wrapper .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.process-verify, .btn-load {
+    display: none;
+}
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 40px;
+}
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div {
+    position: absolute;
+    top: 13px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+.pagination-dive{
+    margin-bottom:30px;
+}
+.common_form label {
+    font-size: 14px;
+}
+.vs_test_head.py-4 h1 {
+    font-size: 32px;
+}
+.regis-create h1{
+    font-size:40px;
+}
+.view-profile-link h5 a{
+    font-size: 16px;
+    margin-right: 10px;
+}
+.vs_plumber_database_page{
+    position: relative;
+}
+
+.view-profile-link h5 {
+    font-weight: 700;
+    font-size: 16px;
+    padding-right: 7px;
+    color: #000;
+    cursor: pointer;
+}
+
+.vs_plumber_database_section h3 {
+    font-size: 24px;
+    color: #000;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.view-profile-link {
+    position: absolute;
+    right: 30px;
+}
+
