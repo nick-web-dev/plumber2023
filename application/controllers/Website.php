@@ -152,8 +152,6 @@ class Website extends CI_Controller
             $_SESSION['pid'] = $id;
         }
 
-        // print_r($_SESSION);
-        // exit;
         if (isset($_SESSION['pid']) && !empty($_SESSION['pid'])) {
             $id = base64_decode($_SESSION['pid']);
             $this->data['value'] = $this->db->select('*')->from('users')->where("user_id", $id)->get()->row_array();
